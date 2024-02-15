@@ -13,9 +13,15 @@
             color: aliceblue;
             
         }
+        #imgAuto{
+            position: relative;
+    left: 515px;
+            width: 250px;
+            object-fit:cover;
+        }
         .container {
             background-color: navy;
-            width: 50%;
+            width: 60%;
             margin: auto;
             padding: 20px;
             border: 1px solid #ccc;
@@ -25,7 +31,7 @@
         .form-group {
             margin-bottom: 10px;
             height: 107px;
-            width: 667px;
+            width: 396px;
         }
     </style>
 </head>
@@ -44,8 +50,10 @@
                     <asp:ListItem Text="Mercedes Classe E" Value="Mercedes"></asp:ListItem>
                     <asp:ListItem Text="Ferrari Purosangue" Value="Ferrari"></asp:ListItem>
                 </asp:DropDownList>
-                <asp:Image ID="imgAuto" runat="server" />
                 <asp:Literal ID="litPrezzoBase" runat="server" />
+                
+                <asp:Image ID="imgAuto" runat="server" />
+                    
             </div>
             <div class="form-group">
                 <label>Seleziona gli optional:</label>

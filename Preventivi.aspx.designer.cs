@@ -33,15 +33,6 @@ namespace back_end_s3_l04
         protected global::System.Web.UI.WebControls.DropDownList ddlAuto;
 
         /// <summary>
-        /// Controllo imgAuto.
-        /// </summary>
-        /// <remarks>
-        /// Campo generato automaticamente.
-        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image imgAuto;
-
-        /// <summary>
         /// Controllo litPrezzoBase.
         /// </summary>
         /// <remarks>
@@ -49,6 +40,15 @@ namespace back_end_s3_l04
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Literal litPrezzoBase;
+
+        /// <summary>
+        /// Controllo imgAuto.
+        /// </summary>
+        /// <remarks>
+        /// Campo generato automaticamente.
+        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Image imgAuto;
 
         /// <summary>
         /// Controllo cblOptional.
